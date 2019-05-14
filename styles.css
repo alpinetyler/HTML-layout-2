@@ -3,6 +3,16 @@
     box-sizing: border-box;
 } */
 
+body {
+    background: lightblue;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    display: flex;
+    width: 100vw;
+    position: relative;
+   
+}
 
 
 .owl{
@@ -23,7 +33,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
     background: white;
     margin: 20px;
 }
@@ -45,14 +54,7 @@ nav > a {
     
 }
 
-body {
-    background: lightblue;
-  
-    color: white;
-    display: flex;
-    width: 100vw;
-   
-}
+
 
 
 button{
@@ -68,5 +70,41 @@ div {
    
     
      /* border: 2px solid black; */
+
+}
+
+.outersection{
+    border: black 2px solid;
+    margin: 20px;
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    
+}
+
+.innersection1 {
+    border: red 2px solid;
+    width: 500px;
+    height: 500px;
+    color: black;
+    padding: 100px 0 0 50px;
+}
+h1{
+    font-size: 50px;
+}
+
+.innersection2{
+    border: red 2px solid;
+    width: 500px;
+    height: 500px;
+}
+
+.bigButton{
+    height: 50px;
+    width: 200px;
+    font-size: 12px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: blue;
+    color: white;
 
 }

@@ -34,7 +34,7 @@ header {
     align-items: center;
     justify-content: space-between;
     background: white;
-    margin: 20px;
+    margin: 20px 20px 0 20px;
 }
 
 nav{
@@ -74,29 +74,45 @@ div {
 }
 
 .outersection{
-    border: black 2px solid;
-    margin: 20px;
-    width: 100vw;
+    /* border: black 2px solid; */
+    margin: 20px 0 0 100px; 
+    /* width: 400px; */
     height: 500px;
     display: flex;
+    justify-content: space-between;
+    /* border: red 2px solid; */
+     position: absolute;
+    
+    top: 150px;
+    left: 25px;
+
+   
     
 }
 
 .innersection1 {
-    border: red 2px solid;
-    width: 500px;
+    /* border: red 2px solid; */
+    /* width: 500px; */
     height: 500px;
     color: black;
-    padding: 100px 0 0 50px;
+     padding: 50px 0 0 50px;
+    /* border: red 2px solid; */
+    
+
 }
 h1{
-    font-size: 50px;
+    font-size: 60px;
+}
+
+h4{
+    font-size: 18px;
 }
 
 .innersection2{
-    border: red 2px solid;
-    width: 500px;
+    /* border: red 2px solid; */
+    /* width: 700px; */
     height: 500px;
+    /* border: red 2px solid; */
 }
 
 .bigButton{
@@ -107,4 +123,17 @@ h1{
     background-color: blue;
     color: white;
 
+}
+
+.spaceship{
+    width: 600px;
+    height: 500px;
+}
+
+.leftsection{
+    /* border: green 2px solid; */
+    width: 100px;
+    height: 500px;
+    margin: 0 0 0 20px;
+    background: white;
 }
